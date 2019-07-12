@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="contact_form.css">
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <table>
+        <tr>
+            <th>
+                Your Name
+            </th>
+            <td>
+                <input type="text" placeholder="First Name" class="width2">
+                <input type="text" placeholder="Last Name" class="width2">
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                Your Email
+            </th>
+            <td colspan="2">
+                <input type="email" placeholder="e.g. myname@example.com" class="width">
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                Phone*
+            </th>
+            <td colspan="2">
+                <input type="text" placeholder="###" maxlength="3" class="width3">
+                <input type="text" placeholder="###" maxlength="3"class="width3">
+                <input type="text" placeholder="####" maxlength="4" class="width4">
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                Message Subject*
+            </th>
+            <td>
+                <select>
+                    <option>Other</option>
+                    <option>Urgent</option>
+                    <option>Complaint</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                Message*
+            </th>
+            <td>
+                <textarea rows=5 cols=30 id="area" class="width"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Submit Form" class="button">
+</body>
+</html>

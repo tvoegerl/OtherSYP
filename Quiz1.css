@@ -1,0 +1,32 @@
+h1{
+    text-align:center;
+    color: #80ccf2;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.column1{
+    width:20%;
+}
+
+.column2{
+    width:20%;
+}
+
+html{
+    background-image: url("https://img.freepik.com/free-vector/abstract-pastel-watercolor-texture-background_10126-978.jpg?size=626&ext=jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    padding:10px;
+}
+
+.example{
+    border: 2px solid purple;
+    background-color: violet;
+}
